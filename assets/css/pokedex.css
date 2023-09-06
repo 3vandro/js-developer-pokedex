@@ -8,74 +8,92 @@
 
 .normal {
     background-color: #a6a877;
+    border: solid 0.05rem #000;
 }
 
 .grass {
     background-color: #77c850;
+    border: solid 0.05rem #000;
 }
 
 .fire {
     background-color: #ee7f30;
+    border: solid 0.05rem #000;
 }
 
 .water {
     background-color: #678fee;
+    border: solid 0.05rem #000;
 }
 
 .electric {
     background-color: #f7cf2e;
+    border: solid 0.05rem #000;
 }
 
 .ice {
     background-color: #98d5d7;
+    border: solid 0.05rem #000;
 }
 
 .ground {
     background-color: #dfbf69;
+    border: solid 0.05rem #000;
 }
 
 .flying {
     background-color: #a98ff0;
+    border: solid 0.05rem #000;
 }
 
 .poison {
     background-color: #a040a0;
+    border: solid 0.05rem #000;
 }
 
 .fighting {
     background-color: #bf3029;
+    border: solid 0.05rem #000;
 }
 
 .psychic {
     background-color: #f65687;
+    border: solid 0.05rem #000;
 }
 
 .dark {
     background-color: #725847;
+    border: solid 0.05rem #000;
 }
 
 .rock {
     background-color: #b8a137;
+    border: solid 0.05rem #000;
 }
 
 .bug {
     background-color: #a8b720;
+    border: solid 0.05rem #000;
 }
 
 .ghost {
     background-color: #6e5896;
+    border: solid 0.05rem #000;
 }
 
 .steel {
     background-color: #b9b7cf;
+    border: solid 0.05rem #000;
 }
 
 .dragon {
     background-color: #6f38f6;
+    border: solid 0.05rem #000;
 }
 
 .fairy {
     background-color: #f9aec7;
+    border: solid 0.05rem #000;
 }
 
 .pokemon {
@@ -110,6 +128,7 @@
     padding: 0;
     margin: 0;
     list-style: none;
+    
 }
 
 .pokemon .detail .types .type {
@@ -125,6 +144,76 @@
 .pokemon .detail img {
     max-width: 100%;
     height: 70px;
+}
+
+
+.pokemon .moreInfoButton {
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+    background-color: transparent;
+    border: solid .1rem #000;
+    border-radius: 25px;
+    margin-top: 2rem;
+
+
+}
+
+.pokemon .moreInfoButton:hover{
+    background-color: #b9b7cf;
+    animation: .2ms;
+}
+.pokemon .status {
+    margin-top: 2rem;
+}
+
+#status{
+    display: none;
+
+}
+
+
+.pokemon .status .height 
+.pokemon .status .weight{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+
+}
+
+.pokemon .status .table{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    max-width: 100%;
+    
+}
+
+.pokemon .status .table .valor {
+    text-align: center;
+    padding-left: 4dvh;
+    background-color: #678fee;
+
+    
+}
+
+
+.pokemon .status .table .stats_name{
+    text-transform: capitalize;
+
+}
+
+.pokemon .status .table .stats {
+    text-align: center;
+    padding-left: 4dvh;
+    
+}
+
+.pokemon .status .moves {
+    margin-top: 100px;
+}
+
+.pokemon .status .move {
+    text-transform: capitalize;
+    
 }
 
 .pagination {
